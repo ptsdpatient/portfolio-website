@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'head';
+    src: url('./head.otf');
+}
+.optionBar {
+    font-family: head;
+    font-size: 1rem;
+    height: 1.8rem;
+    border-style: hidden;
+    transition: all 0.1s;
+}
+.random {
+    background-color: #141414;
+}
+.optionBar:hover, .optionBar:focus{
+        cursor: pointer;
+
+        box-shadow: 0px 0px 3px 0.2px #2377dd;
+        transform: translateY(-1px);
+    }
+    

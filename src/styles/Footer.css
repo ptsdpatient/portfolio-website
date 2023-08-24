@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'head';
+    src: url('./head.otf');
+}
+.footer {
+    width:100%;
+    height: 3rem;
+}
+    .footer > p {
+        user-select:none;
+        color: #3076f3;
+        font-family:head;
+        text-align:center;
+        padding-top:1rem;
+     }
